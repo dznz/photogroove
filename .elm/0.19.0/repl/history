@@ -1,0 +1,14 @@
+help
+/q
+quit
+exit
+exit
+list bool
+list
+decodeString int "42.1"
+decodeString float "42"
+decodeString bool "@!(*&^"
+decodeString bool "42"
+decodeString bool "false"
+decodeString bool "true"
+import Json.Decode exposing (..)
